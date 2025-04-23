@@ -119,7 +119,7 @@ def main():
         render_problem(a, b, op)
 
         option_surfaces = [render_number(choice) for choice in choices]
-        spacing = 60
+        spacing = 70
         total_width = sum(s.get_width() + spacing for s in option_surfaces) - spacing
         x = (SCREEN_WIDTH - total_width) // 2
         y = 300
