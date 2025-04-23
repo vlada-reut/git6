@@ -61,7 +61,7 @@ def render_number(number):
     return surface
 
 def generate_problem():
-    op = random.choice(["+", "-", "*", "/"])
+    op = random.choice(["+", "-", "*", "/", "+"])
     if op == "*":
         a = random.randint(0, 10)
         b = random.randint(0, 10)
