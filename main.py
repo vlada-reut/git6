@@ -78,7 +78,7 @@ def generate_problem():
 def generate_choices(correct_answer):
     choices = [correct_answer]
     while len(choices) < 3:
-        fake = correct_answer + random.randint(-10, 10)
+        fake = correct_answer + random.randint(-5, 10)
         if fake != correct_answer and fake not in choices:
             choices.append(fake)
     random.shuffle(choices)
