@@ -33,7 +33,7 @@ minus_image = pygame.transform.scale(
     pygame.image.load(os.path.join(DIGITS_PATH, "minus.png")), DIGIT_SIZE
 )
 
-SYMBOL_SIZE = (150, 150)
+SYMBOL_SIZE = (140, 140)
 symbol_images = {
     "+": pygame.transform.scale(pygame.image.load(os.path.join(SYMBOLS_PATH, "plus.png")), SYMBOL_SIZE),
     "-": pygame.transform.scale(pygame.image.load(os.path.join(SYMBOLS_PATH, "minus.png")), SYMBOL_SIZE),
