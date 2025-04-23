@@ -57,7 +57,7 @@ def render_number(number):
     x = 0
     for part in parts:
         surface.blit(part, (x, 0))
-        x += part.get_width() - 20
+        x += part.get_width() - 30
     return surface
 
 def generate_problem():
