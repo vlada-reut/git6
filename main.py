@@ -64,7 +64,7 @@ def generate_problem():
     operator = random.choice(["+", "-", "*", "/"])
     if op == "*":
         a = random.randint(0, 10)
-        b = random.randint(0, 10)
+        b = random.randint(0, 15)
     elif op == "/":
         b = random.randint(1, 10)
         answer = random.randint(1, 10)
