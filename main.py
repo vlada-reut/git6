@@ -22,7 +22,7 @@ SYMBOLS_PATH = "symbols"
 background = pygame.image.load("background.png")
 background = pygame.transform.scale(background, (SCREEN_WIDTH, SCREEN_HEIGHT))
 
-DIGIT_SIZE = (150, 150)
+DIGIT_SIZE = (160, 160)
 digit_images = {
     str(d): pygame.transform.scale(
         pygame.image.load(os.path.join(DIGITS_PATH, f"{d}.png")), DIGIT_SIZE
